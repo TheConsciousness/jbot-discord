@@ -1,0 +1,33 @@
+# Bun-specific files and directories
+.bun/
+.cache/
+dist/
+
+# Node.js standard ignore files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript output
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+logs/*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.vscode/
+.idea/
+*.swp
+*.swo
